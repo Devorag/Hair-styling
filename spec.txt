@@ -29,8 +29,8 @@ Reports:
 4) The Max amount of hair cuts per month.
 
 
-please use all info from the invention table 
-First Name: Although not all the inventors were females, for the purpose of sample info for this table let's assume they are all girls.
+please use all info from the medalist table 
+First Name: Although not all the medalists were females, for the purpose of sample info for this table let's assume they are all women.
 However, please exlude those that say 'mens ....' by the sports subcategory.
 Status: if age at time of medal is >= 23, married.
 Phone Number: concat( '845', '-', yearborn, '-', first 3 integers of the olympic year)
