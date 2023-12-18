@@ -39,6 +39,6 @@ Appointment Desc: Pro-addiction for those who won gold medal
                   Keratin for those who won more than once
                   Hair cut for the summer season
                   Wig Wash if age at time of medal is between 25 - 50
-                  Else - the other options available
+                  Else - wig styled
 
 */
