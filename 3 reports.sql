@@ -12,7 +12,7 @@ select count(*)
 from HairStyle h 
 where h.LastName like '%e%' or h.PhoneNumber like '%[67]%' 
 --4) which month had the most haircuts
-select count(*), month(AppointmentDate)
+select AmountOfMostHaircuts = count(*), MonthOfMostHaircuts = month(AppointmentDate)
 from HairStyle h 
 where h.AppointmentType = 'HairCut'
 group by month(AppointmentDate)
