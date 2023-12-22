@@ -23,17 +23,17 @@ drop table if exists dbo.HairStyle
         not null 
         constraint ck_AppointmentType_must_be_Haircut_ProAddiction_Keratin_HairStyle_WigWash_WigStyle 
         check (AppointmentType in ('ProAddiction', 'Haircut', 'Keratin', 'HairStyle' ,'WigWash', 'WigStyle')),
-    Fee as case 
-        when AppointmentType = 'ProAddiction'
+    Fee as case AppointmentType
+        when 'ProAddiction'
         then 350
-        when AppointmentType = 'HairCut'
+        when 'HairCut'
         then 20
-        when AppointmentType = 'Keratin'
+        when 'Keratin'
         then 400
-        when AppointmentType = 'HairStyle'
+        when 'HairStyle'
         then 65
-        when AppointmentType = 'WigWash'
+        when 'WigWash'
         then 50
-        when AppointmentType = 'WigStyle'
+        when 'WigStyle'
         then 100
         end persisted) 
